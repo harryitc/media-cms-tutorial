@@ -6,7 +6,8 @@ DEBUG = False
 
 # PORTAL NAME, this is the portal title and
 # is also shown on several places as emails
-PORTAL_NAME = "MediaCMS"
+# @harryitc
+PORTAL_NAME = "HutechMedia"
 PORTAL_DESCRIPTION = ""
 LANGUAGE_CODE = "en-us"
 TIME_ZONE = "Europe/London"
@@ -32,7 +33,8 @@ REGISTER_ALLOWED = True  # whether the register button appears
 UPLOAD_MEDIA_ALLOWED = True  # whether the upload media button appears
 CAN_LIKE_MEDIA = True  # whether the like media appears
 CAN_DISLIKE_MEDIA = True  # whether the dislike media appears
-CAN_REPORT_MEDIA = True  # whether the report media appears
+# @harryitc
+CAN_REPORT_MEDIA = False  # whether the report media appears
 CAN_SHARE_MEDIA = True  # whether the share media appears
 # how many times an item need be reported
 # to get to private state automatically

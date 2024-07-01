@@ -11,6 +11,10 @@ MediaCMS.user = {
 		editMedia: {% if CAN_EDIT_MEDIA %}true{% else %}false{% endif %},
 		deleteMedia: {% if CAN_DELETE_MEDIA %}true{% else %}false{% endif %},
 		editSubtitle: {% if CAN_EDIT_MEDIA %}true{% else %}false{% endif %},
+		<!-- {% comment %}
+		@harryitc
+        {% endcomment %} -->
+		<!-- {% comment %}
 		readComment: true,
 		addComment: true,
 		deleteComment: {% if CAN_DELETE_COMMENTS %}true{% else %}false{% endif %},
@@ -19,6 +23,15 @@ MediaCMS.user = {
 		manageMedia: {% if IS_MEDIACMS_ADMIN or IS_MEDIACMS_MANAGER or IS_MEDIACMS_EDITOR %}true{% else %}false{% endif %},
 		manageUsers: {% if IS_MEDIACMS_ADMIN or IS_MEDIACMS_MANAGER %}true{% else %}false{% endif %},
 		manageComments: {% if IS_MEDIACMS_ADMIN or IS_MEDIACMS_MANAGER or IS_MEDIACMS_EDITOR %}true{% else %}false{% endif %},
+        {% endcomment %} -->
+		readComment: false,
+		addComment: false,
+		deleteComment: false,
+		editProfile: false,
+		deleteProfile: false,
+		manageMedia: false,
+		manageUsers: false,
+		manageComments: false,
 	},
 	pages: {
 		media: '/user/{{request.user.username}}',

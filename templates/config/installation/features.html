@@ -21,7 +21,10 @@ MediaCMS.features = {
 			like: {% if CAN_LIKE_MEDIA %}true{% else %}false{% endif %},
 			dislike: {% if CAN_DISLIKE_MEDIA %}true{% else %}false{% endif %},
 			download: true,
-			comment: true,
+			<!-- {% comment %}
+			@harryitc
+			{% endcomment %} -->
+			comment: false,
 			timestampTimebar: {% if TIMESTAMP_IN_TIMEBAR %}true{% else %}false{% endif %},
 			comment_mention: {% if CAN_MENTION_IN_COMMENTS %}true{% else %}false{% endif %},
 			save: true,

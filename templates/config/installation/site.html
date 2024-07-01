@@ -1,4 +1,8 @@
 MediaCMS.site = {
+	<!-- {% comment %}
+	@harryitc
+	id: 'Hutech-Media',
+	{% endcomment %} -->
  	id: 'mediacms',
     title: "{{PORTAL_NAME}}",
     url: '{{FRONTEND_HOST}}',
@@ -10,43 +14,61 @@ MediaCMS.site = {
 		},
     },
     logo:{
+		<!-- {% comment %}
+         @harryitc
+        {% endcomment %} -->
     	lightMode:{
-            img: "/static/images/logo_dark.png",
-            svg: "/static/images/logo_dark.svg",
+            img: "/static/images/hutech-logo.png",
+            svg: "/static/images/hutech-logo.svg",
     	},
     	darkMode:{
-            img: "/static/images/logo_light.png",
-            svg: "/static/images/logo_light.svg",
+            img: "/static/images/hutech-logo.png",
+            svg: "/static/images/hutech-logo.svg",
     	},
     },
     pages: {
-	    latest:{
-	    	title: 'Recent uploads',
-	    },
-	    featured:{
-	    	title: 'Featured',
-	    },
-	    recommended:{
-	    	title: 'Recommended',
-	    },
-	    members:{
-	    	title: 'Members',
-	    },
+		<!-- {% comment %}
+         @harryitc
+        {% endcomment %} -->
+		<!-- {% comment %}
+		 latest:{
+			 title: 'Recent uploads',
+		 },
+		 featured:{
+			 title: 'Featured',
+		 },
+		 recommended:{
+			 title: 'Recommended',
+		 },
+		 members:{
+			 title: 'Members',
+		 },
+        {% endcomment %} -->
     },
     userPages: {
+		<!-- {% comment %}
+         @harryitc
+        {% endcomment %} -->
+		<!-- {% comment %}
     	liked: {
 	    	title: 'Liked media',
     	},
+        {% endcomment %} -->
     	history: {
-	    	title: 'History',
+	    	title: 'Lịch sử Media',
     	},
     },
     taxonomies: {
+		<!-- {% comment %}
+         @harryitc
+        {% endcomment %} -->
+		<!-- {% comment %}
 	    tags: {
 	    	title: 'Tags',
 	    },
+        {% endcomment %} -->
 	    categories: {
-	    	title: 'Categories',
+	    	title: 'Danh mục',
 	    },
     },
 };
