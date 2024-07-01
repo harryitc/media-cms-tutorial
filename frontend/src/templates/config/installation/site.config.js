@@ -1,7 +1,7 @@
 module.exports = {
   devEnv: 'true' === process.env.WEBPACK_DEV_SERVER,
   id: process.env.MEDIACMS_ID || 'Hutech-Media',
-  title: process.env.MEDIACMS_TITLE || 'HutechMedia Demo',
+  title: process.env.MEDIACMS_TITLE || 'Hutech Media',
   url: process.env.MEDIACMS_URL || 'UNDEFINED_URL',
   api: process.env.MEDIACMS_API || 'UNDEFINED_API',
   theme: {
