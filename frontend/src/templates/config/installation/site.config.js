@@ -1,7 +1,7 @@
 module.exports = {
   devEnv: 'true' === process.env.WEBPACK_DEV_SERVER,
-  id: process.env.MEDIACMS_ID || 'mediacms-frontend',
-  title: process.env.MEDIACMS_TITLE || 'MediaCMS Demo',
+  id: process.env.MEDIACMS_ID || 'Hutech-Media',
+  title: process.env.MEDIACMS_TITLE || 'HutechMedia Demo',
   url: process.env.MEDIACMS_URL || 'UNDEFINED_URL',
   api: process.env.MEDIACMS_API || 'UNDEFINED_API',
   theme: {
@@ -12,42 +12,45 @@ module.exports = {
   },
   logo: {
     lightMode: {
-      svg: './static/images/logo_dark.svg',
-      img: './static/images/logo_dark.png',
+      svg: './static/images/logo-hutech.png', // @harryitc
+      img: './static/images/logo-hutech.png', // @harryitc
     },
     darkMode: {
-      svg: './static/images/logo_light.svg',
-      img: './static/images/logo_light.png',
+      svg: './static/images/logo-hutech.png', // @harryitc
+      img: './static/images/logo-hutech.png', // @harryitc
     },
   },
   pages: {
-    latest: {
-      title: 'Recent uploads',
-    },
-    featured: {
-      title: 'Featured',
-    },
-    recommended: {
-      title: 'Recommended',
-    },
-    members: {
-      title: 'Members',
-    },
+    // @harryitc
+    // latest: {
+    //   title: 'Upload gần đây',
+    // },
+    // featured: {
+    //   title: 'Nổi bật',
+    // },
+    // recommended: {
+    //   title: 'Đề nghị',
+    // },
+    // members: {
+    //   title: 'Danh sách thành viên',
+    // },
   },
   userPages: {
-    liked: {
-      title: 'Liked media',
-    },
+    // @harryitc
+    // liked: {
+    //   title: 'Đã thích',
+    // },
     history: {
-      title: 'History',
+      title: 'Lịch sử Media',
     },
   },
   taxonomies: {
-    tags: {
-      title: 'Tags',
-    },
+    // @harryitc
+    // tags: {
+    //   title: 'Tags',
+    // },
     categories: {
-      title: 'Categories',
+      title: 'Danh mục',
     },
   },
 };

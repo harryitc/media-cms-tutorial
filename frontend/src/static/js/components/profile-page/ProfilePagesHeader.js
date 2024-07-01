@@ -312,16 +312,21 @@ class NavMenuInlineTabs extends React.PureComponent {
           {this.state.displayPrev ? this.previousBtn : null}
 
           <ul className="items-list-wrap" ref="itemsListWrap">
-            <InlineTab
+            
+            {/* @harryitc */}
+            {/* <InlineTab
               id="about"
               isActive={'about' === this.props.type}
               label={'About' + (this.userIsAuthor ? ' Me' : '')}
               link={LinksContext._currentValue.profile.about}
-            />
+            /> */}
+
             <InlineTab
               id="media"
               isActive={'media' === this.props.type}
-              label={(this.userIsAuthor ? 'My ' : '') + 'Media'}
+              label={(this.userIsAuthor ? 'Medias' : '') + ''}
+              // @harryitc
+              // label={(this.userIsAuthor ? 'My ' : '') + 'Media'}
               link={LinksContext._currentValue.profile.media}
             />
 
@@ -329,7 +334,9 @@ class NavMenuInlineTabs extends React.PureComponent {
               <InlineTab
                 id="playlists"
                 isActive={'playlists' === this.props.type}
-                label={(this.userIsAuthor ? 'My ' : '') + 'Playlists'}
+                label={(this.userIsAuthor ? 'Playlists' : '') + ''}
+                // @harryitc
+                // label={(this.userIsAuthor ? 'My ' : '') + 'Playlists'}
                 link={LinksContext._currentValue.profile.playlists}
               />
             ) : null}
@@ -527,7 +534,8 @@ export default function ProfilePagesHeader(props) {
           ></span>
         ) : null}
 
-        {userCanDeleteProfile ? (
+        {/* @harryitc */}
+        {/* {userCanDeleteProfile ? (
           <span className="delete-profile-wrap">
             <PopupTrigger contentRef={popupContentRef}>
               <button className="delete-profile" title="">
@@ -553,25 +561,27 @@ export default function ProfilePagesHeader(props) {
               </PopupMain>
             </PopupContent>
           </span>
-        ) : null}
+        ) : null} */}
 
-        {userCanEditProfile ? (
+        {/* @harryitc */}
+        {/* {userCanEditProfile ? (
           props.author.banner_thumbnail_url ? (
             <EditBannerButton link={ProfilePageStore.get('author-data').default_channel_edit_url} />
           ) : (
             <AddBannerButton link={ProfilePageStore.get('author-data').default_channel_edit_url} />
           )
-        ) : null}
+        ) : null} */}
       </span>
 
       <div className="profile-info-nav-wrap">
+        {/* @harryitc */}
         {props.author.thumbnail_url || props.author.name ? (
           <div className="profile-info">
             <div className="profile-info-inner">
               <div>{props.author.thumbnail_url ? <img src={props.author.thumbnail_url} alt="" /> : null}</div>
               <div>
                 {props.author.name ? <h1>{props.author.name}</h1> : null}
-                {userCanEditProfile ? <EditProfileButton link={ProfilePageStore.get('author-data').edit_url} /> : null}
+                {/* {userCanEditProfile ? <EditProfileButton link={ProfilePageStore.get('author-data').edit_url} /> : null} */}
               </div>
             </div>
           </div>

@@ -17,14 +17,17 @@ module.exports = {
     editMedia: true,
     deleteMedia: true,
     editSubtitle: true,
-    readComment: true,
-    addComment: true,
-    deleteComment: true,
-    editProfile: true,
-    deleteProfile: true,
-    manageMedia: true,
-    manageUsers: true,
-    manageComments: true,
+
+    // @harryitc
+    readComment: false, // @harryitc
+    addComment: false, // @harryitc
+    deleteComment: false, // @harryitc
+    editProfile: false, // @harryitc
+    deleteProfile: false, // @harryitc
+    manageMedia: false, // @harryitc
+    manageUsers: false, // @harryitc
+    manageComments: false, // @harryitc
+    
     contactUser: false,
   },
   pages: {

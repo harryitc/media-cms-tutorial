@@ -17,11 +17,11 @@ module.exports = {
   media: {
     actions: {
       share: true,
-      report: true,
+      report: false, // @harryitc
       like: true,
       dislike: true,
       download: true,
-      comment: true,
+      comment: false, // @harryitc
       save: true,
     },
     shareOptions: [

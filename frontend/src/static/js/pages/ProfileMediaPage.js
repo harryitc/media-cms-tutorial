@@ -17,9 +17,14 @@ function EmptyChannelMedia(props) {
     <LinksConsumer>
       {(links) => (
         <div className="empty-media empty-channel-media">
-          <div className="welcome-title">Welcome {props.name}</div>
-          <div className="start-uploading">
+          {/* @harryitc */}
+          {/* <div className="welcome-title">Welcome {props.name}</div> */}
+          {/* <div className="start-uploading">
             Start uploading media and sharing your work. Media that you upload will show up here.
+          </div> */}
+          <div className="welcome-title">Hutech Media</div>
+          <div className="start-uploading">
+          Bắt đầu tải lên phương tiện và chia sẻ công việc của bạn. Phương tiện bạn tải lên sẽ hiển thị ở đây.
           </div>
           <a href={links.user.addMedia} title="Upload media" className="button-link">
             <i className="material-icons" data-icon="video_call"></i>UPLOAD MEDIA

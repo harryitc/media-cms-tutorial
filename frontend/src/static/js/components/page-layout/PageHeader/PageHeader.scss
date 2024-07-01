@@ -257,6 +257,10 @@ a.user-menu-top-link {
     color: inherit;
     display: block;
 
+    // @harryitc
+    display: flex;
+    align-items: center;
+
     &:focus {
       span {
         &:before {
@@ -286,6 +290,14 @@ a.user-menu-top-link {
     float: left;
     max-width: 100%;
     max-height: var(--logo-height, var(--default-logo-height));
+    
+    // @harryitc
+    max-height: 2rem;
+  }
+
+  // @harryitc
+  .logo-title {
+    margin-left: 0.5rem;
   }
 }
 

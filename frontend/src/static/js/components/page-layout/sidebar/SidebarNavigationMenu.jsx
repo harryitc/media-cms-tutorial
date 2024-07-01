@@ -140,7 +140,7 @@ export function SidebarNavigationMenu() {
           items.push({
             link: userPages.media,
             icon: 'video_library',
-            text: 'My media',
+            text: 'Quản lý media', // @harryitc
             className: 'nav-item-my-media',
           });
         }
@@ -150,7 +150,7 @@ export function SidebarNavigationMenu() {
         items.push({
           link: userPages.playlists,
           icon: 'playlist_play',
-          text: 'My playlists',
+          text: 'Danh sách playlists',  // @harryitc
           className: 'nav-item-my-playlists',
         });
       }

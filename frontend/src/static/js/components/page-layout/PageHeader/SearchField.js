@@ -296,7 +296,9 @@ export function SearchField(props) {
               <input
                 ref={searchInputRef}
                 type="text"
-                placeholder="Search"
+                // @harryitc
+                // placeholder="Search"
+                placeholder="Tìm kiếm"
                 aria-label="Search"
                 name="q"
                 value={queryVal}

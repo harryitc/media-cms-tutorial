@@ -7,6 +7,8 @@ export const Logo = ({ src, loading = 'lazy', title, alt, href = '#' }) => {
         <span>
           <img src={src} alt={alt || title} title={title} loading={loading} />
         </span>
+        {/* @harryitc */}
+        <span className="logo-title">{title}</span>
       </a>
     </div>
   ) : null;

@@ -141,7 +141,8 @@ export function HeaderRight(props) {
 
                     <UploadMediaButton user={user} links={links} />
 
-                    <div
+                    {/* @harryitc */}
+                    {/* <div
                       className={
                         (user.is.anonymous ? 'user-options' : 'user-thumb') +
                         (!user.is.anonymous || header.hasThemeSwitcher ? '' : ' visible-only-in-extra-small')
@@ -165,7 +166,7 @@ export function HeaderRight(props) {
                           pageIdSelectorAttr={'data-page-id'}
                         />
                       </PopupContent>
-                    </div>
+                    </div> */}
 
                     <LoginButton user={user} link={links.signin} hasHeaderThemeSwitcher={header.hasThemeSwitcher} />
                     <RegisterButton

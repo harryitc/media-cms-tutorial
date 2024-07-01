@@ -2,7 +2,9 @@ let SITE = null;
 
 export function init(settings) {
   SITE = {
-    id: 'media-cms',
+    // @harryitc
+    id: 'Hutech - Media',
+    // id: 'media-cms',
     url: '',
     api: '',
     title: '',

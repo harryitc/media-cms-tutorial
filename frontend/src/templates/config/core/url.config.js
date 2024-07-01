@@ -2,8 +2,11 @@ module.exports = {
   home: './index.html',
   search: './search.html',
   latestMedia: './latest.html',
-  featuredMedia: './featured.html',
-  recommendedMedia: './recommended.html',
+
+  // @harryitc
+  // featuredMedia: './featured.html',
+  // recommendedMedia: './recommended.html',
+
   members: './members.html',
   /* Error pages */
   error404: './error.html',
@@ -16,17 +19,22 @@ module.exports = {
   /* Add pages */
   addMedia: './add-media.html',
   /* Profile/account edit pages */
-  editProfile: './edit-profile.html',
-  editChannel: './edit-channel.html',
+
+  // @harryitc
+  // editProfile: './edit-profile.html',
+  // editChannel: './edit-channel.html',
   /* User account pages */
-  signin: './signin.html',
-  signout: './signout.html',
-  register: './register.html',
-  changePassword: './change-password.html',
+  // signin: './signin.html',
+  // signout: './signout.html',
+  // register: './register.html',
+  // changePassword: './change-password.html',
+
   /* Administration pages */
   admin: '/admin',
+
+  // @harryitc
   /* Management pages */
-  manageMedia: './manage-media.html',
-  manageUsers: './manage-users.html',
-  manageComments: './manage-comments.html',
+  // manageMedia: './manage-media.html',
+  // manageUsers: './manage-users.html',
+  // manageComments: './manage-comments.html',
 };

@@ -85,9 +85,12 @@ function EditMediaButton(props) {
 function EditSubtitleButton(props) {
   let link = props.link;
 
-  if (window.MediaCMS.site.devEnv) {
-    link = '#';
-  }
+  console.log("lik = ", props);
+  console.log("window = ", window.MediaCMS);
+
+  // if (window.MediaCMS.site.devEnv) {
+  //   link = '#';
+  // }
 
   return (
     <a href={link} rel="nofollow" title="Edit subtitle" className="edit-subtitle">
